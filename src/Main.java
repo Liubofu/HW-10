@@ -11,5 +11,17 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("Ф. И. О. сотрудника — " + fullName);
+
+        System.out.println("Задание 2");
+
+        String big = fullName;
+        System.out.println(big.toUpperCase());
+
+        System.out.println("Задание 3");
+
+        String fullName2 = "Иванов Семён Семёнович";
+        String fullNameTrue = fullName2.replace("ё", "е");
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullNameTrue);
+
     }
 }
